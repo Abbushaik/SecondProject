@@ -1,0 +1,121 @@
+body
+{
+    background-color:#F0F2F5;
+}
+.main
+{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    gap:20px;   
+    height:300px;
+    width:100%;
+    position:relative;
+    top:120px;
+}
+.class1
+{
+    position:relative;
+    left:240px;
+    height:300px;
+    width:400px;
+    bottom:150px;
+    right:50px;
+    flex-wrap: wrap;
+}
+.class2
+{
+    position:relative;
+    right:320px;
+    top:25px;
+    background-color: #FFFFFF;
+    border:1px solid #222;
+    height:350px;
+    width:400px;
+    display:flex;
+    align-items:center;
+    border-radius:8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border:none;
+}
+.class2 input
+{
+    height:50px;
+    width:360px;
+    border:1.5px solid rgb(200,200, 200);
+    margin-left:20px;
+    font-size:20px;
+    border-radius:5px;
+}
+.btn1
+{
+    position:relative;
+    left:20px;
+    height:45px;
+    width:360px;
+    bottom:10px;
+    border-radius:5px;
+    font-size:24px;
+    font-weight:bold;
+    background-color:#1877F2;
+    color:white;
+    border:none;
+}
+.class1 img
+{
+    height:500px;
+    width:300px;
+}
+.class1 p
+{
+    position:relative;
+    bottom:230px;
+    left:34px;
+    font-size:24px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+.class2 a
+{
+    position:relative;
+    left:35%;
+    top:10px;
+    text-decoration:none;
+    font-size:14px;
+    font-weight:500;
+    font-family:SFProDisplay-Regular, Helvetica, Arial, sans-serif;;
+}
+.btn2
+{
+    position:relative;
+    left:110px;
+    height:45px;
+    width:180px;
+    top:45px;
+    border-radius:5px;
+    background-color:#42B72A;
+    font-size:17px;
+    color:white;
+    border:none;
+    font-weight:bold;
+}
+.line
+{
+    position:relative;
+    border-top:1px solid #222;
+    position:relative;
+    top:30px;
+    opacity:0.2;
+    width:350px;
+    left:26px;
+    right:10px;
+}
+.input1
+{
+    position:relative;
+    bottom:50px;
+}
+.input2
+{
+    position:relative;
+    bottom:35px;
+}
